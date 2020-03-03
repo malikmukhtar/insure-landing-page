@@ -1,5 +1,10 @@
 body{
     margin: 0 auto;
+    font-family: 'DM Serif Display', sans-serif;
+}
+
+text{
+    font-family: 'DM Serif Display', sans-serif;
 }
 
 .main-nav {
@@ -14,8 +19,8 @@ body{
     
 }
 .side-padding{
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .white{
     color: white;
@@ -39,10 +44,27 @@ body{
 .dark-background{
     background-color: hsl(256, 26%, 20%);
 }
+.flex{
+    display: flex;
+}
+.flex-margin{
+    margin: 15px
+}
+.detail-div{
+    margin-top: 200px;
+}
 
-hr{
+.hr-first{
     margin-top: 100px;
     width: 70px;
+    float: left;
+}
+
+
+
+.hr-second{
+    /* margin-top: 170px; */
+    width: 100px;
     float: left;
 }
 
@@ -65,9 +87,50 @@ li {
 .container{
     
 }
+.svg-intro-right{
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+.svg-intro-left{
+    width: 120px;
+    height: 300px;
+    float: left;
+    margin-top: -110px;
+    opacity: 0.9;
+}
+.svg-how-we-work{
+    width: 400px;
+    height: 200px;
+    float: right;
+    /* margin: 0 auto; */
+    opacity: 0.9;
+    
+}
+.intro-img{
+    height: 500px;
+    margin-left: 650px;
+    /* float: right; */
+    margin-top: -300px;
+}
 
 .button{
     height: 30px;
     width: 120px;
     font-size: 10px;
+}
+nav{
+    padding-left: 100px;
+    padding-right: 100px; 
+}
+.footer-div{
+    /* float: right; */
+    /* width: 1px; */
+    padding-top: 10px;
+    flex-direction: row;
+  align-items: center;
+  /* width: 88%; */
+  margin-left: 100px;
 }
