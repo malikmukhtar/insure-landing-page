@@ -172,7 +172,7 @@ nav {
 .social {
   display: flex;
   justify-content: space-evenly;
-  width: 10%;
+  width: 20%;
   float: right;
 }
 .footer__logo-insure {
